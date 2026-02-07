@@ -52,10 +52,10 @@ p {
 
 .contact-grid {
     display: grid;
-    /* width: min-content; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px;
     place-items: center;
+    grid-template-rows: min-content;
+    padding-bottom: 5px;
 }
 
 .contact-grid a {
