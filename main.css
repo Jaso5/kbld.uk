@@ -8,6 +8,15 @@ body {
     text-align: center;
 }
 
+content {
+    display: block;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+
+    background-color: #122C34;
+}
+
 .centred {
     display: flex;
     height: fit-content;
@@ -26,8 +35,8 @@ p {
 
 .contact-grid {
     display: grid;
-    /* height: fit-content; */
-    grid-template-columns: 1fr 150px 150px 150px 1fr;
+    /* width: min-content; */
+    grid-template-columns: 1fr 150px 150px 150px 150px 1fr;
     grid-template-rows: 150px;
     place-items: center;
 }
@@ -37,8 +46,14 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    content {
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
     .contact-grid {
-        grid-template-columns: 1fr 100px 100px 100px 1fr;
+        grid-template-columns: 1fr 100px 100px 100px 100px 1fr;
         grid-template-rows: 100px;
     }
 
