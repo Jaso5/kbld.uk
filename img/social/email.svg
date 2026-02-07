@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns:cc="http://creativecommons.org/ns#" data-name="Livello 1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" space="preserve" version="1.1" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+<svg data-name="Livello 1" space="preserve" version="1.1" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <title>Telegram_logo</title>
  <script/>
  <metadata>
@@ -9,5 +9,5 @@
    </cc:Work>
   </rdf:RDF>
  </metadata>
- <path d="m57.15 76.501h125.7s-50.585 41.9-62.85 41.9-62.85-41.9-62.85-41.9zm-17.15-76.501c-22.16 0-40 17.84-40 40v160c0 22.16 17.84 40 40 40h160c22.16 0 40-17.84 40-40v-160c0-22.16-17.84-40-40-40zm14.5 66.986h131c6.3015 0 11.375 5.0735 11.375 11.375v83.277c0 6.3015-5.0735 11.375-11.375 11.375h-131c-6.3015 0-11.375-5.0735-11.375-11.375v-83.277c0-6.3015 5.0735-11.375 11.375-11.375z" fill="#4EA5D9" stroke-width="3.7795"/>
+ <path d="m42.965 67.299h154.07s-46.491 40.69-77.035 40.69c-30.544 0-77.035-40.69-77.035-40.69zm-2.9651-67.299c-22.16 0-40 17.84-40 40v160c0 22.16 17.84 40 40 40h160c22.16 0 40-17.84 40-40v-160c0-22.16-17.84-40-40-40zm-2.3672 53.334h164.73c7.9242 0 14.305 6.3804 14.305 14.305v104.72c0 7.9242-6.3804 14.303-14.305 14.303h-164.73c-7.9242 0-14.305-6.3785-14.305-14.303v-104.72c0-7.9242 6.3804-14.305 14.305-14.305z" fill="#4ea5d9" stroke-width="1.2575"/>
 </svg>
