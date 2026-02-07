@@ -1,20 +1,37 @@
+:root {
+    --bg1: #031E26;
+    --bg2: #084C61;
+    --txt: #FFFFFF;
+    --fg: #56A3A6;
+    --fg2: #4F6D7A;
+    --hl1: #DB504A;
+    --hl2: #E3B505;
+}
+
 body {
-    background-color: #122C34;
+    background-color: var(--bg1);
 }
 
 * {
-    color: #4EA5D9;
+    color: var(--txt);
     font-family: FreeMono, monospace;
     text-align: center;
 }
 
-content {
-    display: block;
-    width: 50%;
-    padding-left: 25%;
-    padding-right: 25%;
+h1 {
+    color: var(--hl1);
+    font-size: 40pt;
+}
 
-    background-color: #122C34;
+content {
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px 20px;
+
+    background-color: var(--bg2);
+    box-shadow: var(--fg2);
 }
 
 .centred {
@@ -36,7 +53,7 @@ p {
 .contact-grid {
     display: grid;
     /* width: min-content; */
-    grid-template-columns: 1fr 150px 150px 150px 150px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 150px;
     place-items: center;
 }
@@ -46,15 +63,24 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 25pt;
+    }
+
     content {
-        width: 80%;
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .contact-grid {
-        grid-template-columns: 1fr 100px 100px 100px 100px 1fr;
+        /* grid-template-columns: 1fr 100px 100px 100px 100px 1fr; */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 100px;
+    }
+
+    .contact-grid a img {
+        width: 100%;
     }
 
     .title-img {
